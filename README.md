@@ -35,7 +35,7 @@
 ## 개발 도구 및 환경
 - **IDE**: IntelliJ IDEA
 - **빌드 도구**: Maven
-- **Java 버전**: Java 17
+- **Java 버전**: Java 8
 
 ## 데이터 모델
 - **Product**: 상품 정보를 저장하는 테이블
