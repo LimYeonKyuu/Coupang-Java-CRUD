@@ -25,12 +25,12 @@
 - 삭제된 상품은 더 이상 조회되지 않습니다.
 
 ## 시스템 구조
-- **프레임워크**: Spring, Spring Boot
 - **구조**:
     - **Controller**: 사용자 요청을 처리하고, 서비스를 통해 필요한 작업을 수행
     - **Service**: 비즈니스 로직을 처리
-    - **Repository**: 데이터베이스 또는 파일 I/O 처리
-    - **Entity**: 데이터베이스의 테이블과 매핑되는 객체
+    - **Repository**: 파일 I/O 처리
+    - **Product**: 상품 정보를 저장하는 데이터 모델
+    - **Main**: 프로그램 실행 진입점
 
 ## 개발 도구 및 환경
 - **IDE**: IntelliJ IDEA
@@ -44,5 +44,3 @@
     - **price**: 가격
     - **stock**: 재고 수량
     - **description**: 상품 설명
-    - **createdDate**: 생성일
-    - **updatedDate**: 수정일
