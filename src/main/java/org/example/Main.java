@@ -39,9 +39,6 @@ public class Main {
                     System.out.println("잘못된 선택입니다. 다시 입력해주세요.");
             }
         }
-
-        // 프로그램 종료 시 데이터 저장
-        coupangController.saveProducts();
         scanner.close();
         System.out.println("이용해주셔서 감사합니다.");
     }
